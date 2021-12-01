@@ -1,0 +1,70 @@
+.card-1 {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/reusable-banners-card-1-bg.png');
+  background-size: cover;
+}
+
+.card-2 {
+  display: flex;
+  justify-content: flex-end;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/reusable-banners-card-2-bg.png');
+  background-size: cover;
+}
+
+.card-3 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/reusable-banners-card-3-bg.png');
+  background-size: cover;
+}
+
+/* Write your code here. */
+
+.card-container {
+  border-radius: 5px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  width: 90%;
+  margin-bottom: 20px;
+}
+@media screen and (min-width: 768px) {
+  .card-container {
+    height: 250px;
+    width: 60%;
+  }
+}
+
+.card-text-container {
+  padding: 20px;
+}
+@media screen and (min-width: 768px) {
+  .card-text-container {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+.header {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 32px;
+  font-weight: bolder;
+  color: lightslategrey;
+}
+.discretion {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  color: dimgray;
+}
+.button {
+  border-radius: 10px;
+  border-width: 1px;
+  background-color: aliceblue;
+  text-align: center;
+  border-color: blue;
+  color: blue;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  width: 90px;
+  height: 40px;
+}
